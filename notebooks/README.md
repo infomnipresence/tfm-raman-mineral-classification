@@ -7,6 +7,8 @@ ejecutar los notebooks en orden, para que la generación de archivos sea coheren
 
 La base de datos se encuentra en el siguiente link: 
 
+https://www.rruff.net/about/download-data/
+
 # Notebooks
 
 Esta carpeta contiene el análisis exploratorio y la auditoría de los datos junto con
