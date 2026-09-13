@@ -71,6 +71,6 @@ Esto permitió llevar el proyecto a un refinamiento gradual previo a la ejecuci�
 
   Se utilizó una CNN distinta de la primera aproximación, procurando mejorar las características de la arquitectura.
 
-  [Ver notebook CNN mejorada](./cnn_mejorada.ipynb)
+  [Ver notebook CNN mejorada](./05_cnn_mejorada.ipynb)
   
   
