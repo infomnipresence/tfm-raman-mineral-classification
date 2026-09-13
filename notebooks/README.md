@@ -93,7 +93,16 @@ Esto permitió llevar el proyecto a un refinamiento gradual previo a la ejecuci�
   [Ver notebook Random Forest](./07_random_forest.ipynb)
 
   
+  ### 3.4 Modelos Deep Learning
+  
+  En esta sección se ajustan técnicas de exploración multi-semilla sobre dos arquitecturas de redes convolucionales (Reference & CNN)
+  descritas por la literatura de referencia con el objetivo de explorar su capacidad de clasificación sobre la base de datos completa,        aumentada y auditada mediante fuentes independientes.
 
+  [Ver notebook MLROD CNN](./08_mlrod_cnn.ipynb)
+
+  [Ver notebook Reference CNN](./09_reference_cnn.ipynb)
+
+ 
  
   
   
