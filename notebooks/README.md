@@ -16,8 +16,8 @@ las comprensiones sobre el pre-procesamiento de los datos previo a la ejecución
 ## 2.1 Experimentos históricos
 
 A continuación se lista una serie de notebooks que fueron ejecutados de manera progresiva y experimental,
-con el fin de comprender las exigencias que presenta la base de datos a la luz de obtener los mejores
-resultados en las redes convolucionales, respetando la estructura y alcances que presentan los datos.
+con el fin de comprender las exigencias que presenta procesamiento de la base de datos a la luz de obtener los mejores
+resultados en las redes convolucionales.
 
 Esto permitió llevar el proyecto a un refinamiento gradual previo a la ejecución de los modelos candidatos.
 
@@ -33,6 +33,7 @@ Esto permitió llevar el proyecto a un refinamiento gradual previo a la ejecuci�
   de fuentes es susceptible de presentar resultados con un sesgo muy optimista.
 
   La ejecución se hace únicamente sobre los espectros Excellent - Unoriented.
+  
   Se utilizó la misma CNN genérica de la primera aproximación para tener una referencia comparativa sólida.
 
   [Ver notebook Segunda aproximación](./02_segunda_aproximacion.ipynb)
@@ -43,8 +44,23 @@ Esto permitió llevar el proyecto a un refinamiento gradual previo a la ejecuci�
   data augmentation en el pipeline de la CNN genérica
 
   La ejecución se hace únicamente sobre los espectros Excellent - Unoriented.
+  
   Se utilizó la misma CNN genérica de la primera aproximación para tener una referencia comparativa sólida.
 
+  [Ver notebook Tercera aproximación](./03_tercera_aproximacion.ipynb)
+
+  Después de este notebook, todos los siguientes trabajan sobre datos audítados y con augmentation.
+
+- Cuarta aproximación (auditoría + augmentation + whole DB): Este notebook pone a prueba la hipótesis de que contar con una
+  base de datos más grande puede mejorar el poder de generalización de la base de datos aunque el rendimiento se vea un poco
+  afectado debido a la presencia de datos de menor calidad. Esto puede sonar un poco contra-intuitivo pues puede conllevar a una
+  disminución en las métricas de rendimiento, sin embargo es necesario hacerlo pues es lo que más se acerca a la recolección
+  real de las muestras: obtención en situaciones distintas no ideales fuera del laboratorio.
   
+  La ejecución se hace únicamente sobre los 7 dominios de la base de datos.
   
+  Se utilizó la misma CNN genérica de la primera aproximación para tener una referencia comparativa sólida.
+
+  [Ver notebook Cuarta aproximación](./04_cuarta_aproximacion.ipynb)
+
   
