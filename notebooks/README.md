@@ -13,7 +13,7 @@ las comprensiones sobre el pre-procesamiento de los datos previo a la ejecución
 
 [Ver notebook de análisis exploratorio](./00_analisis_exploratorio.ipynb)
 
-## 2.1 Experimentos históricos
+## 2 Experimentos históricos
 
 A continuación se lista una serie de notebooks que fueron ejecutados de manera progresiva y experimental,
 con el fin de comprender las exigencias que presenta procesamiento de la base de datos a la luz de obtener los mejores
@@ -74,5 +74,26 @@ Esto permitió llevar el proyecto a un refinamiento gradual previo a la ejecuci�
   Se aplicó análisis multisemilla.
 
   [Ver notebook CNN mejorada](./05_cnn_mejorada.ipynb)
+
+  ## 3. Modelos Candidatos
+
+  Teniendo en cuenta los aprendizajes obtenidos durante los experimentos históricos,
+  esta sección implementa los modelos candidatos descritos por la literatura científica (SVM, Random Forest, CNNs - 1D) con el fin de
+  comparar su rendimiento y elegir el modelo más justo después de una amplia exploración.
+
+  ### 3.1 Modelos Machine Learning
+  
+  En esta fase se ajustan técnicas de grid search sobre modelos SVM & Random forest con el objetivo de explorar
+  su capacidad de clasificación sobre la base de datos completa y auditada mediante fuentes independientes.
+
+  
+  [Ver notebook SVM](./06_SVM.ipynb)
+
+  
+  [Ver notebook Random Forest](./07_random_forest.ipynb)
+
+  
+
+ 
   
   
