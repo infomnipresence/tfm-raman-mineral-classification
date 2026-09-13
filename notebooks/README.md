@@ -16,5 +16,22 @@ las comprensiones sobre el pre-procesamiento de los datos previo a la ejecución
 ## 2.1 Experimentos históricos
 
 A continuación se lista una serie de notebooks que fueron ejecutados de manera progresiva y experimental,
-llevando el proyecto a un refinamiento gradual previo a la ejecución de los modelos candidatos.
+con el fin de comprender las exigencias que presenta la base de datos a la luz de obtener los mejores
+resultados, respetando su estructura y alcances.
 
+Esto permitió llevar el proyecto a un refinamiento gradual previo a la ejecución de los modelos candidatos.
+
+- Primera aproximación (Base de datos sin auditar): Este notebook ejecuta una red neuronal genérica, con el fin de observar su desempeño
+  en la base de datos sin auditoría de independencia de fuentes. 
+  [Ver notebook Primera aproximación](notebooks/01 Primera Aproximación.ipynb)
+
+- Segunda aproximación (Auditoría de independencia): Este notebook tiene como finalidad ejecutar la auditoría de datos por fuentes
+  independientes propuestas en el EDA, con el fin de demostrar que un modelo que no garantice la independencia
+  de fuentes es susceptible de presentar resultados con un sesgo muy optimista.
+
+  [Ver notebook Segunda aproximación](notebooks/02 Segunda Aproximación - Source Audited_Group_Aware - CNN.ipynb)
+  
+  Después de este notebook, todos los siguientes tienen en cuenta la auditoría de independencia de fuentes.
+  
+  
+  
