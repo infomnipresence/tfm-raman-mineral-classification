@@ -22,8 +22,10 @@ resultados, respetando su estructura y alcances.
 Esto permitió llevar el proyecto a un refinamiento gradual previo a la ejecución de los modelos candidatos.
 
 - Primera aproximación (Base de datos sin auditar): Este notebook ejecuta una red neuronal genérica, con el fin de observar su desempeño
-  en la base de datos sin auditoría de independencia de fuentes. 
-  [Ver notebook Primera aproximación](./01 Primera Aproximación.ipynb)
+  en la base de datos sin auditoría de independencia de fuentes.
+  La ejecución se hace unicamente sobre los espextros Excellent - Unoriented.
+   
+  [Ver notebook Primera aproximación](./01_primera_aproximacion.ipynb)
 
 - Segunda aproximación (Auditoría de independencia): Este notebook tiene como finalidad ejecutar la auditoría de datos por fuentes
   independientes propuestas en el EDA, con el fin de demostrar que un modelo que no garantice la independencia
