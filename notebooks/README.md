@@ -102,6 +102,14 @@ Esto permitió llevar el proyecto a un refinamiento gradual previo a la ejecuci�
 
   [Ver notebook Reference CNN](./09_reference_cnn.ipynb)
 
+  Adicionalmente, se adjunta el modelo Reference CNN entrenado únicamente sobre la base de datos Excellent Unoriented, con el objetivo
+  de mostrar que datos de alta calidad presentan mayor performance de clasificación.
+
+  No obstante, usar datos tomados bajo distintas condiciones es una aproximación más honesta con la realidad del trabajo fuera del           laboratorio y el modelo ganador logra hacerlo con un buen desempeño a pesar de poder contar con una mayor cantidad de fuentes independientes.
+
+  [Ver notebook Reference CNN Excellent Unoriented DB](./10_reference_cnn_excellent.ipynb)
+  
+
  
  
   
