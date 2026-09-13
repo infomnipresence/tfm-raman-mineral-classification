@@ -26,7 +26,7 @@ resultados en las redes convolucionales.
 
 Esto permitió llevar el proyecto a un refinamiento gradual previo a la ejecución de los modelos candidatos.
 
-- Primera aproximación (Base de datos sin auditar):
+### 2.1 Primera aproximación (Base de datos sin auditar):
    Este notebook ejecuta una red neuronal genérica, con el fin de observar su desempeño
   en la base de datos sin auditoría de independencia de fuentes.
   
@@ -34,7 +34,8 @@ Esto permitió llevar el proyecto a un refinamiento gradual previo a la ejecuci�
    
   [Ver notebook Primera aproximación](./01_primera_aproximacion.ipynb)
 
-- Segunda aproximación (Auditoría de independencia): Este notebook tiene como finalidad ejecutar la auditoría de datos por fuentes
+### 2.2 Segunda aproximación (Auditoría de independencia): 
+Este notebook tiene como finalidad ejecutar la auditoría de datos por fuentes
   independientes propuestas en el EDA, con el fin de demostrar que un modelo que no garantice la independencia
   de fuentes es susceptible de presentar resultados con un sesgo muy optimista.
 
@@ -46,7 +47,8 @@ Esto permitió llevar el proyecto a un refinamiento gradual previo a la ejecuci�
   
   Después de este notebook, todos los siguientes tienen en cuenta la auditoría de independencia de fuentes.
 
-- Tercera aproximación (auditoría + augmentation): Este notebook explora el efecto de aplicar técnicas de
+### 2.3 Tercera aproximación (auditoría + augmentation): 
+Este notebook explora el efecto de aplicar técnicas de
   data augmentation en el pipeline de la CNN genérica
 
   La ejecución se hace únicamente sobre los espectros Excellent - Unoriented.
@@ -57,7 +59,8 @@ Esto permitió llevar el proyecto a un refinamiento gradual previo a la ejecuci�
 
   Después de este notebook, todos los siguientes trabajan sobre datos audítados y con augmentation.
 
-- Cuarta aproximación (auditoría + augmentation + whole DB): Este notebook pone a prueba la hipótesis de que contar con una
+### 2.4 Cuarta aproximación (auditoría + augmentation + whole DB): 
+Este notebook pone a prueba la hipótesis de que contar con una
   base de datos más grande puede mejorar el poder de generalización de la base de datos aunque el rendimiento se vea un poco
   afectado debido a la presencia de datos de menor calidad. Esto puede sonar un poco contra-intuitivo pues puede conllevar a una
   disminución en las métricas de rendimiento, sin embargo es necesario hacerlo pues es lo que más se acerca a la recolección
@@ -69,7 +72,8 @@ Esto permitió llevar el proyecto a un refinamiento gradual previo a la ejecuci�
 
   [Ver notebook Cuarta aproximación](./04_cuarta_aproximacion.ipynb)
 
-- CNN Mejorada (auditoría + augmentation + whole DB + Enhanced CNN): En esta fase se implementa toda la línea previa
+### 2.5 CNN Mejorada (auditoría + augmentation + whole DB + Enhanced CNN): 
+En esta fase se implementa toda la línea previa
   de mejoras hasta la cuarta aproximación, modificando la arquitectura de la red convolucional mediante cambios en sus
   parámetros, regularizers, etc... con el fin de comprobar que una vez se ha optimizado el pre-procesamiento de los datos
   de la mayor forma posible, buscar una arquitectura adecuada puede mejorar el rendimiento de los modelos.
