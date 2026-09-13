@@ -1,3 +1,8 @@
+Nota Previa: Se recomienda descargar todos los notebooks y almacenarlos en una misma y única carpeta raíz
+para efectos de que los archivos generados en algunos notebooks queden disponibles para su posterior
+uso en algún otro notebook que lo requiera para su correcta ejecución futura. Adicionalmente, se recomienda
+ejecutar los notebooks en orden, para que la generación de archivos sea coherente y no genere errores.
+
 # Notebooks
 
 Esta carpeta contiene el análisis exploratorio y la auditoría de los datos junto con
@@ -13,7 +18,7 @@ las comprensiones sobre el pre-procesamiento de los datos previo a la ejecución
 
 [Ver notebook de análisis exploratorio](./00_analisis_exploratorio.ipynb)
 
-## 2 Experimentos históricos
+## 2. Experimentos históricos
 
 A continuación se lista una serie de notebooks que fueron ejecutados de manera progresiva y experimental,
 con el fin de comprender las exigencias que presenta procesamiento de la base de datos a la luz de obtener los mejores
@@ -109,11 +114,20 @@ Esto permitió llevar el proyecto a un refinamiento gradual previo a la ejecuci�
 
   [Ver notebook Reference CNN Excellent Unoriented DB](./10_reference_cnn_excellent.ipynb)
 
-  ### Modelo Ganador
+  ### 3.5 Modelo Ganador
 
   Se adjunta el notebook del modelo ganador listo para convertirlo en checkpoint que posibilite su serialización y puesta en producción.
+  
+  [Ver notebook checkpoint modelo ganador](./11_checkpoint_ganador.ipynb)
 
-  [Checkpoint modelo ganador](./11_checkpoint_ganador.ipynb)
+  ## 4. Análisis SHAP
+
+  Para mejorar la interpretabilidad del modelo ganador se adjunta un notebook explicando cómo con la herramienta SHAP,
+  es posible comprender de manera gráfica la forma en la que la red convolusional ganadora comprende estadísticamente las características
+  que hacen que un espectro sea distinguible de los demás de forma única.
+
+  [Ver notebook análisis SHAP](./SHAP.ipynb)
+
   
 
  
