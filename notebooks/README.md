@@ -7,6 +7,8 @@ ejecutar los notebooks en orden, para que la generación de archivos sea coheren
 
 La base de datos se encuentra en el siguiente link: 
 
+(Elegir la opción Raman y descargar todas las carpetas).
+
 https://www.rruff.net/about/download-data/
 
 # Notebooks
