@@ -3,12 +3,16 @@ para efectos de que los archivos generados en algunos notebooks queden disponibl
 uso en algún otro notebook que lo requiera para su correcta ejecución futura. Adicionalmente, se recomienda
 ejecutar los notebooks en orden, para que la generación de archivos sea coherente y no genere errores.
 
+# Dataset 
+
+La base de datos se encuentra en el siguiente link: 
+
 # Notebooks
 
 Esta carpeta contiene el análisis exploratorio y la auditoría de los datos junto con
 los experimentos históricos, y los modelos definitivos del proyecto.
 
-Para una comprensión de la cronológica del proyecto se recomienda leer los notebooks en el siguiente orden:
+Para una comprensión de la cronología del proyecto se recomienda leer los notebooks en el siguiente orden:
 
 ## 1. Análisis exploratorio
 
