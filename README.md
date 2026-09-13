@@ -1,8 +1,8 @@
 # Identificación automatizada de minerales mediante espectros Raman y aprendizaje automático
 
-Proyecto académico para la clasificación de minerales a partir de espectros Raman de la base de datos RRUFF. Se comparan modelos clásicos de aprendizaje automático y redes neuronales convolucionales unidimensionales (CNN-1D), aplicando una metodología de evaluación diseñada para evitar la fuga de información entre muestras procedentes de una misma fuente.
+Proyecto para la clasificación de minerales a partir de espectros Raman de la base de datos RRUFF. Se comparan modelos clásicos de machine learning y redes neuronales convolucionales unidimensionales (CNN-1D), aplicando una metodología de evaluación diseñada para evitar la fuga de información entre muestras procedentes de una misma fuente.
 
-> **Estado:** prueba de concepto académica. El sistema apoya la preclasificación de minerales, pero no sustituye la evaluación de un especialista.
+> **Estado:** Prototipo de clasificación - prueba de concepto API - Flask.
 
 ## Objetivo
 
