@@ -21,7 +21,7 @@ resultados en las redes convolucionales.
 
 Esto permitió llevar el proyecto a un refinamiento gradual previo a la ejecución de los modelos candidatos.
 
-- #Primera aproximación (Base de datos sin auditar):
+- Primera aproximación (Base de datos sin auditar):
    Este notebook ejecuta una red neuronal genérica, con el fin de observar su desempeño
   en la base de datos sin auditoría de independencia de fuentes.
   
@@ -64,4 +64,13 @@ Esto permitió llevar el proyecto a un refinamiento gradual previo a la ejecuci�
 
   [Ver notebook Cuarta aproximación](./04_cuarta_aproximacion.ipynb)
 
+- CNN Mejorada (auditoría + augmentation + whole DB + Enhanced CNN): En esta fase se implementa toda la línea previa
+  de mejoras hasta la cuarta aproximación, modificando la arquitectura de la red convolucional mediante cambios en sus
+  parámetros, regularizers, etc... con el fin de comprobar que una vez se ha optimizado el pre-procesamiento de los datos
+  de la mayor forma posible, buscar una arquitectura adecuada puede mejorar el rendimiento de los modelos.
+
+  Se utilizó una CNN distinta de la primera aproximación, procurando mejorar las características de la arquitectura.
+
+  [Ver notebook CNN mejorada](./cnn_mejorada.ipynb)
+  
   
