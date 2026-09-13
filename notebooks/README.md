@@ -98,7 +98,7 @@ Esto permitió llevar el proyecto a un refinamiento gradual previo a la ejecuci�
   [Ver notebook Random Forest](./07_random_forest.ipynb)
 
   
-  ### 3.4 Modelos Deep Learning
+  ### 3.2 Modelos Deep Learning
   
   En esta sección se ajustan técnicas de exploración multi-semilla sobre dos arquitecturas de redes convolucionales (Reference & CNN)
   descritas por la literatura de referencia con el objetivo de explorar su capacidad de clasificación sobre la base de datos completa,        aumentada y auditada mediante fuentes independientes.
@@ -110,11 +110,11 @@ Esto permitió llevar el proyecto a un refinamiento gradual previo a la ejecuci�
   Adicionalmente, se adjunta el modelo Reference CNN entrenado únicamente sobre la base de datos Excellent Unoriented, con el objetivo
   de mostrar que datos de alta calidad presentan mayor performance de clasificación.
 
-  No obstante, usar datos tomados bajo distintas condiciones es una aproximación más honesta con la realidad del trabajo fuera del           laboratorio y el modelo ganador logra hacerlo con un buen desempeño a pesar de poder contar con una mayor cantidad de fuentes independientes.
+  No obstante, usar datos tomados bajo distintas condiciones es una aproximación más honesta con la realidad del trabajo fuera del            laboratorio y el modelo ganador logra hacerlo con un buen desempeño a pesar de poder contar con una mayor cantidad de fuentes      independientes.
 
   [Ver notebook Reference CNN Excellent Unoriented DB](./10_reference_cnn_excellent.ipynb)
 
-  ### 3.5 Modelo Ganador
+  ### 3.3 Modelo Ganador
 
   Se adjunta el notebook del modelo ganador listo para convertirlo en checkpoint que posibilite su serialización y puesta en producción.
   
@@ -126,8 +126,23 @@ Esto permitió llevar el proyecto a un refinamiento gradual previo a la ejecuci�
   es posible comprender de manera gráfica la forma en la que la red convolusional ganadora comprende estadísticamente las características
   que hacen que un espectro sea distinguible de los demás de forma única.
 
-  [Ver notebook análisis SHAP](./SHAP.ipynb)
+  [Ver notebook análisis SHAP](./12_SHAP.ipynb)
 
+  ## Implementación FLASK
+
+  Para la ejecución de estos notebooks es necesario haber ejecutado previamente el notebook de la sección 3.3 para obtener el checkpoint del modelo ganador.
+
+  Esta sección presenta una API prototípica del modelo ganador serializado que recibe como petición la instrucción de
+  clasificar un espectro cuya entrada se proporciona en formato JSON y devuelve como respuesta el top 5 espectros más probables
+  junto con su fiabilidad porcentual.
+
+  En este notebook se encapsula el checkpoint en un protocolo FLASK listo para recibir peticiones externas:
+
+  [Ver notebook API (protocolo flask)](./13_flask_api_protocol.ipynb)
+
+  En este notebook se hace una prueba de contexto con espectros sintéticos para constatar el buen funcionamiento del protocolo:
+
+  [Ver notebook protocolo flask](./14_flask_external_client.ipynb)
   
 
  
