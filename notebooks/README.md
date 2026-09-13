@@ -108,6 +108,12 @@ Esto permitió llevar el proyecto a un refinamiento gradual previo a la ejecuci�
   No obstante, usar datos tomados bajo distintas condiciones es una aproximación más honesta con la realidad del trabajo fuera del           laboratorio y el modelo ganador logra hacerlo con un buen desempeño a pesar de poder contar con una mayor cantidad de fuentes independientes.
 
   [Ver notebook Reference CNN Excellent Unoriented DB](./10_reference_cnn_excellent.ipynb)
+
+  ### Modelo Ganador
+
+  Se adjunta el notebook del modelo ganador listo para convertirlo en checkpoint que posibilite su serialización y puesta en producción.
+
+  [Checkpoint modelo ganador](./11_checkpoint_ganador.ipynb)
   
 
  
