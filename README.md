@@ -207,7 +207,7 @@ python -m ipykernel install --user --name raman-cnn --display-name "Python (rama
 Después se puede iniciar Jupyter con:
 
 ```bash
-jupyter lab
+jupyter notebook
 ```
 
 Dentro de Jupyter debe seleccionarse el kernel **Python (raman-cnn)**.
