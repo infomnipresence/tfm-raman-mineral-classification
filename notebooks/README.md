@@ -128,7 +128,7 @@ Esto permitió llevar el proyecto a un refinamiento gradual previo a la ejecuci�
 
   [Ver notebook análisis SHAP](./12_SHAP.ipynb)
 
-  ## Implementación FLASK
+  ## 5. Implementación FLASK
 
   Para la ejecución de estos notebooks es necesario haber ejecutado previamente el notebook de la sección 3.3 para obtener el checkpoint del modelo ganador.
 
