@@ -21,7 +21,8 @@ resultados en las redes convolucionales.
 
 Esto permitió llevar el proyecto a un refinamiento gradual previo a la ejecución de los modelos candidatos.
 
-- #Primera aproximación (Base de datos sin auditar):# Este notebook ejecuta una red neuronal genérica, con el fin de observar su desempeño
+- #Primera aproximación (Base de datos sin auditar):
+   Este notebook ejecuta una red neuronal genérica, con el fin de observar su desempeño
   en la base de datos sin auditoría de independencia de fuentes.
   
   La ejecución se hace únicamente sobre los espectros Excellent - Unoriented.
