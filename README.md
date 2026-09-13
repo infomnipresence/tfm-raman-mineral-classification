@@ -118,26 +118,6 @@ Ejemplo conceptual de respuesta:
 
 Los valores anteriores son únicamente ilustrativos y no corresponden a una ejecución concreta.
 
-## Estructura recomendada del repositorio
-
-```text
-raman-mineral-classification/
-├── README.md
-├── data/
-│   └── README.md
-├── docs/
-│   └── CRONOLOGIA.md
-├── notebooks/
-│   ├── 01_historicos/
-│   ├── 02_eda_y_auditoria/
-│   ├── 03_modelos_finales/
-│   └── 04_interpretabilidad/
-├── results/
-├── figures/
-├── flask_prototype/
-├── requirements.txt
-└── .gitignore
-```
 
 ## Instalación
 
@@ -258,8 +238,7 @@ http://127.0.0.1:8081
 
 1. Descargar los siete conjuntos Raman desde RRUFF.
 2. Ejecutar el notebook de análisis exploratorio y auditoría.
-3. Generar o cargar la partición congelada por `source_id`.
-4. Ejecutar los notebooks de los cuatro modelos finales.
+3. Ejecutar los notebooks de los modelos candidatos (ver notebooks).
 5. Comparar los resultados sobre el mismo conjunto de prueba.
 6. Ejecutar el análisis SHAP con el *checkpoint* ganador.
 7. Serializar el modelo y ejecutar el prototipo Flask.
@@ -276,7 +255,7 @@ Los notebooks históricos se conservan para documentar la evolución metodológi
 - SVM y Random Forest corresponden a evaluaciones puntuales reproducibles.
 - Los artefactos de producción incluyen verificaciones de integridad mediante hashes.
 
-## Limitaciones
+## Alcances
 
 - El modelo solo puede elegir entre las 255 clases conocidas.
 - Las probabilidades de la capa *softmax* no deben interpretarse como certeza.
@@ -307,6 +286,3 @@ Los notebooks históricos se conservan para documentar la evolución metodológi
 
 Proyecto desarrollado por **Nicolás González Villarreal** utilizando Python. Durante el desarrollo se empleó asistencia de modelos de lenguaje, incluidos Codex y Sol, para apoyar tareas de programación, revisión y documentación. Las decisiones metodológicas, ejecuciones, validaciones e interpretación de los resultados permanecieron bajo responsabilidad del autor.
 
-## Licencia
-
-La licencia del código está pendiente de definición. Los datos de RRUFF conservan sus propias condiciones de uso y citación.
