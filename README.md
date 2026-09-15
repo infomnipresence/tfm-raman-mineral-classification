@@ -1,4 +1,4 @@
-# Identificación automatizada de minerales mediante espectros Raman y aprendizaje automático
+# Identificación automatizada de minerales mediante espectros Raman y técnicas de machine learning & deep learning
 
 Proyecto para la clasificación de minerales a partir de espectros Raman de la base de datos RRUFF. Se comparan modelos clásicos de machine learning y redes neuronales convolucionales unidimensionales (CNN-1D), aplicando una metodología de evaluación diseñada para evitar la fuga de información entre muestras procedentes de una misma fuente.
 
