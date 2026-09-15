@@ -150,11 +150,12 @@ En esta fase se implementa toda la línea previa
 
   En este notebook se encapsula el checkpoint en un protocolo FLASK listo para recibir peticiones externas:
 
-  [Ver notebook API (protocolo flask)](./13_flask_api_protocol.ipynb)
+  [Ver notebook API (servidor flask)](./13_flask_api_protocol.ipynb)
 
   En este notebook se hace una prueba de contexto con espectros sintéticos para constatar el buen funcionamiento del protocolo:
 
-  [Ver notebook cliente externo flask](./14_flask_external_client.ipynb)
+  [Ver notebook cliente externo flask](./14_flask_external_client.ipynb). Es necesario ejecutar el notebook del servidor 
+  y tenerlo abierto para poder comunicar las peticiones.
   
 
  
