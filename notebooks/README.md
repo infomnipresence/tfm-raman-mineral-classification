@@ -154,7 +154,7 @@ En esta fase se implementa toda la línea previa
 
   En este notebook se hace una prueba de contexto con espectros sintéticos para constatar el buen funcionamiento del protocolo:
 
-  [Ver notebook protocolo flask](./14_flask_external_client.ipynb)
+  [Ver notebook cliente externo flask](./14_flask_external_client.ipynb)
   
 
  
