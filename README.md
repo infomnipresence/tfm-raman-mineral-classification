@@ -236,15 +236,11 @@ http://127.0.0.1:8081
 
 ## Orden de ejecución
 
-1. Descargar los siete conjuntos Raman desde RRUFF.
-2. Ejecutar el notebook de análisis exploratorio y auditoría.
-3. Ejecutar los notebooks de los modelos candidatos (ver notebooks).
-5. Comparar los resultados sobre el mismo conjunto de prueba.
-6. Ejecutar el análisis SHAP con el *checkpoint* ganador.
-7. Serializar el modelo y ejecutar el prototipo Flask.
-8. Enviar peticiones de prueba desde el notebook cliente.
+Las instrucciones de ejecución se encuentran descritas de manera explicita en el siguiente enlace:
 
-Los notebooks históricos se conservan para documentar la evolución metodológica, pero no representan el procedimiento final recomendado.
+[Ver el orden de lectura de los notebooks](notebooks/README.md)
+
+Los notebooks históricos se conservan para documentar la evolución metodológica del proyecto.
 
 ## Reproducibilidad
 
