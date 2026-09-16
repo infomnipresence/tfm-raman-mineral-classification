@@ -140,7 +140,7 @@ En esta fase se implementa toda la línea previa
 
   [Ver notebook análisis SHAP](./12_SHAP.ipynb)
 
-  ## 5. Implementación FLASK
+  ## 5. Implementación FLASK - Prueba de concepto
 
   Para la ejecución de estos notebooks es necesario haber ejecutado previamente el notebook de la sección 3.3 para obtener el checkpoint del modelo ganador.
 
