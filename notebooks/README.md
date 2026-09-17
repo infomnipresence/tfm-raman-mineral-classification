@@ -32,7 +32,7 @@ A continuación se lista una serie de notebooks que fueron ejecutados de manera 
 con el fin de comprender las exigencias que presenta procesamiento de la base de datos a la luz de obtener los mejores
 resultados en las redes convolucionales.
 
-Esto permitió llevar el proyecto a un refinamiento gradual previo a la ejecución de los modelos candidatos.
+Esto permitió llevar el proyecto a un refinamiento gradual previo a la ejecución de los modelos candidatos, mediante decisiones metodológicas justificadas.
 
 ### 2.1 Primera aproximación (Base de datos sin auditar):
    Este notebook ejecuta una red neuronal genérica, con el fin de observar su desempeño
