@@ -272,11 +272,13 @@ Los notebooks históricos se conservan para documentar la evolución metodológi
 
 ## Referencias principales
 
-- Berlanga, G., Williams, Q., & Temiquel, N. (2022). Convolutional neural networks as a tool for Raman spectral mineral classification under low signal, dusty Mars conditions. *Earth and Space Science, 9*, e2021EA002125. https://doi.org/10.1029/2021EA002125
-- Lafuente, B., Downs, R. T., Yang, H., & Stone, N. (2015). The power of databases: The RRUFF project. En T. Armbruster & R. M. Danisi (Eds.), *Highlights in mineralogical crystallography* (pp. 1–30). De Gruyter. https://doi.org/10.1515/9783110417104-003
-- Liu, J., Osadchy, M., Ashton, L., Foster, M., Solomon, C. J., & Gibson, S. J. (2017). Deep convolutional neural networks for Raman spectrum recognition: A unified solution. *Analyst, 142*(21), 4067–4074. https://doi.org/10.1039/C7AN01371J
-- Liu, Y., Wu, Y., Wang, J., Qi, J., Zhou, C., & Xue, Y. (2026). Recent advances in Raman spectral classification with machine learning. *Sensors, 26*(1), 341. https://doi.org/10.3390/s26010341
+- Berlanga, G., Williams, Q., & Temiquel, N. (2022). Convolutional neural networks as a tool for Raman spectral mineral classification under low signal, dusty Mars conditions. *Earth and Space Science, 9*, e2021EA002125. 
+- Lafuente, B., Downs, R. T., Yang, H., & Stone, N. (2015). The power of databases: The RRUFF project. En T. Armbruster & R. M. Danisi (Eds.), *Highlights in mineralogical crystallography* (pp. 1–30). De Gruyter. 
+- Liu, J., Osadchy, M., Ashton, L., Foster, M., Solomon, C. J., & Gibson, S. J. (2017). Deep convolutional neural networks for Raman spectrum recognition: A unified solution. *Analyst, 142*(21), 4067–4074. 
+- Liu, Y., Wu, Y., Wang, J., Qi, J., Zhou, C., & Xue, Y. (2026). Recent advances in Raman spectral classification with machine learning. *Sensors, 26*(1), 341. 
 - RRUFF. (s. f.). *Download files*. Recuperado el 13 de septiembre de 2026, de https://www.rruff.net/about/download-data/
+- Smith, E., & Dent, G. (2005). Modern Raman spectroscopy: A practical approach. John
+Wiley & Sons.
 
 ## Autoría y herramientas
 
