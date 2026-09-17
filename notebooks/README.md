@@ -156,6 +156,8 @@ En esta fase se implementa toda la línea previa
 
   [Ver notebook cliente externo flask](./14_flask_external_client.ipynb). Es necesario ejecutar el notebook del servidor 
   y tenerlo abierto para poder comunicar las peticiones.
+
+Este desarrollo es una prueba de concepto, no una solución industrial completa. Para utilizarlo en un entorno real sería necesario desplegar la API, validar el modelo con espectros de otros instrumentos e incorporar seguridad, monitorización y un mecanismo que permita indicar cuando una identificación no sea concluyente.
   
 
  
